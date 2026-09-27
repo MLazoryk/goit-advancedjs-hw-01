@@ -1,27 +1,19 @@
 {
   "name": "goit-advancedjs-hw-01",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://MLazoryk.github.io/goit-advancedjs-hw-01/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MLazoryk/goit-advancedjs-hw-01.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/MLazoryk/goit-advancedjs-hw-01/issues"
-  },
-  "homepage": "https://github.com/MLazoryk/goit-advancedjs-hw-01#readme",
   "devDependencies": {
-    "vite": "^8.3.1"
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.0"
   },
   "dependencies": {
     "simplelightbox": "^2.14.3"

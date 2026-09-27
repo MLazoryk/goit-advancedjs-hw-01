@@ -3,8 +3,9 @@ import { resolve } from 'path';
 
 export default defineConfig({
   root: 'src',
+  base: '/goit-advancedjs-hw-01/',
   define: {
-    global: 'window', // 👈 This line fixes the error
+    global: 'window',
   },
   build: {
     outDir: '../dist',
