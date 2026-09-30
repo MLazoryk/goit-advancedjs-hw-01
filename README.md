@@ -1,38 +1,18 @@
-# \# goit-advancedjs-hw-01
+# goit-advancedjs-hw-01
 
-# 
+## Live Page
 
-# \## Live Page
+https://MLazoryk.github.io/goit-advancedjs-hw-01/
 
-# 
+## Repository
 
-# https://MLazoryk.github.io/goit-advancedjs-hw-01/
+https://github.com/MLazoryk/goit-advancedjs-hw-01
 
-# 
+## Base
 
-# \## Repository
+For correct deployment on GitHub Pages, the `base` option in `vite.config.js` must match the repository name:
 
-# 
-
-# https://github.com/MLazoryk/goit-advancedjs-hw-01
-
-# 
-
-# \## Base path configuration
-
-# 
-
-# For correct deployment on GitHub Pages, the `base` option is configured in `vite.config.js`:
-
-# 
-
-# ```js
-
-# export default defineConfig({
-
-# &#x20; base: '/goit-advancedjs-hw-01/',
-
-# &#x20; // ...
-
-# });
-
+```js
+export default defineConfig({
+  base: '/goit-advancedjs-hw-01/',
+});
