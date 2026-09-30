@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/goit-advancedjs-hw-01/', // назва твого репозиторію
   root: 'src',
   build: {
     outDir: '../dist',
